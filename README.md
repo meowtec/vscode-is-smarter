@@ -15,10 +15,10 @@ VSCode 的智能提示依靠 `d.ts` 文件，而除了最基本的 API，VSCode 
 
 在这个 repo 中，我预先添加了 `nodejs` 和 `jquery` 的 `d.ts` 文件，在 typings 目录中。
 
-`d.ts` 有专门的管理工具，[tsd](http://definitelytyped.org/tsd/) 和 [typings](https://github.com/typings/typings)。
-我使用的是前者，tsd。typings 是新出的，兼容 tsd，功能更强大。
+管理 `d.ts` 有专门的工具，[tsd](http://definitelytyped.org/tsd/) 和 [typings](https://github.com/typings/typings)。大多数情况下是不需要手动添加的。
+我使用的是 tsd。typings 是新出的，兼容 tsd，功能更强大。
 
-这个项目的 d.ts 文件是通过 tsd 自动安装的，列表在 tsd.json 中。
+这个项目的 d.ts 文件就是通过 tsd 自动安装的，tsd 的配置文件为 tsd.json。
 
 #### tsd
 ```
