@@ -5,7 +5,7 @@ vscode-is-smart
 关于如何正确使用 VSCode 的 JavaScript 智能提示。
 
 ### 使用说明
-直接下载此 repo 到本地，用 VSCode 打开，编辑 index.js，就能看到智能提示了。
+直接下载此 repo 到本地，用 VSCode 打开，编辑 [index.js](https://github.com/meowtec/vscode-is-smarter/blob/master/index.js)，就能看到智能提示了。
 
 #### jsconfig.json
 这是针对 JavaScript 的配置文件，没啥好改的地方，这样就行了。如果写 TypeScript，需要配置 tsconfig.json，那个就有点复杂。

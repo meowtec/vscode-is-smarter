@@ -10,7 +10,7 @@ var stream1 = fs.readFile('./file/path', (err, data) => {
 })
 
 var stream1 = fs.readFile('./file/path', 'utf-8', (err, data) => {
-  // 多了一个 encoding，就变成 Buffer 了
+  // 多了一个 encoding，data 就变成 Buffer 了
   // 把鼠标放在 data 上就能看到类型
 })
 
