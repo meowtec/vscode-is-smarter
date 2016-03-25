@@ -24,4 +24,5 @@ tsd install jquery --save
 ```
 
 ### 其他
-实际项目中最好将 typings 添加到 .gitignore
+ - TSD 已废弃，请使用 [typings](https://github.com/typings/typings) 替代。
+ - 可以将 typings 添加到 .gitignore
